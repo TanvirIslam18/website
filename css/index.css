@@ -1,0 +1,649 @@
+body,
+html {
+font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.split-page{
+    margin-left: 20%;
+    background-color: #F1F1F2;
+    
+    
+}
+
+
+.navList {
+  position: fixed; 
+  padding: 0;
+  margin: 0 ;
+  list-style-type: none;
+  background-color: #A1D6E2;
+  width: 20%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  
+} 
+
+.navList  li {
+    
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.navList  li a {
+
+  text-decoration: none;
+  color: #000;
+   /* padding: 8px;  */
+  display: block;
+  transition: 0.3s; 
+  margin:1rem 3rem;
+  border-radius: 5rem;
+ 
+}
+
+.navList i {
+    padding-right: 5px;
+    
+}
+
+button:hover {
+  color: #F1F1F2;
+  background:var(--yellow);
+} 
+/* 
+.content {
+  height: 100%;
+  overflow: auto;
+}  */
+
+
+figure img {
+    /* width: 250px;
+    height: 250px; */
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: .5rem solid #F1F1F2;
+    margin-top: 5rem;  
+    
+}
+.navButton{
+    
+    border-radius: 5rem;
+    width: 75%;
+    
+}
+button{
+    border-radius: 5rem;
+}
+
+
+/* slide show about me  */
+
+.slideshow-container{
+    margin-left: 20%;
+    position: relative;
+    margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    width: auto;
+    margin-top: 22px;
+    padding: 25px;
+    color: rgb(228, 2, 2);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #00000080;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* about me */
+
+.heading{
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 4rem;
+    border-bottom: .2rem solid #A1D6E2;
+    color: #A1D6E2;
+    
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color: red;
+}
+
+
+.home h1{
+    font-size: 2rem;
+    color: red;
+    padding-bottom: 10px;
+}
+.home { 
+    /* text-align: center; */
+    color: rgb(133, 15, 15); 
+    padding: 3rem 1rem;
+}
+.home p {
+    font-size: 20px;
+}
+
+.home .box{
+    padding: 100px;
+}
+
+
+.home .box2{
+    padding: 50px;
+    text-align: center;
+}
+.home .box2 a{
+    align-items: center;
+    display: inline-block;
+    margin-right: 1rem
+ 
+  
+    
+}
+/* edication */
+
+
+.education .box-container{
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    
+}
+.education .box-container .box{
+    width:22rem;
+    height: 20rem;
+    margin:4rem 2rem;
+    padding-left: 4rem;
+    border-left: .2rem solid rgb(126, 26, 26);
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1rem;
+    background:#222;
+    color:#fff;
+    border-radius: 2rem;
+    padding:.2rem 2rem;
+}
+
+
+
+.education .box-container .box p{
+    font-size: 1rem;
+    color: rgb(133, 15, 15);
+    padding: 1.2rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-2.5rem; left:-2rem;
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(156, 33, 33);
+    background:var(--yellow);
+}
+
+/* experiance */
+
+.Experience .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+   
+}
+.Experience .box{
+  
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888
+}
+
+.Experience section{
+    padding-top: 20px;
+}
+
+.Experience .box-container .box .card-title{
+    color: red;
+}
+
+.Experience .box-container .box p{
+    color: rgb(133, 15, 15);
+}
+
+.Experience .box-container .box .JPandTH{
+   margin-left: 25px;
+}
+
+/* skills */
+
+.skills .container{
+    margin-top: 30px;
+}
+.skills-bar{
+    width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.skills-bar .bar{
+    margin: 20px 0;
+
+}
+
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight:500;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes  showText {
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width:100%;
+    background:  #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                      0px 1px 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: #6665ee;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.progress-line.html span{
+    width: 90%;
+}
+
+.progress-line.css span{
+    width: 75%;
+}
+.progress-line.JavaScript span{
+    width: 55%;
+}
+.progress-line.java span{
+    width: 80%;
+}
+.progress-line.python span{
+    width: 50%;
+}
+.progress-line.mysql span{
+    width: 65%;
+}
+
+
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right:0;
+    top:-10px;
+    height: 0;
+    width: 0;
+    border:7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.bar .progress-line span::after{
+    position: absolute;
+    content: "80%";
+    right:0;
+    top:-28px;
+    color: #fff;
+    font-size:12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes  showText2 {
+    100%{
+        opacity: 1;
+    }
+}
+
+.progress-line.html span::after{
+    content: "90%";
+}
+
+.progress-line.css span::after{
+    content: "75%";
+}
+.progress-line.JavaScript span::after{
+    content: "55%";
+}
+.progress-line.java span::after{
+    content: "80%";
+}
+.progress-line.python span::after{
+    content: "50%";
+}
+.progress-line.mysql span::after{
+    content: "65%";
+}
+
+/* projects */
+.projects .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+} 
+
+
+
+
+/* .projects .box-container .box{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+} */
+/* .projects .box-container .box img{
+    
+    
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 5rem auto;
+} */
+
+
+.projects .box-container .box img:hover {
+    
+    transform: scale(1.5); 
+}
+/*  */
+
+
+
+.projects .container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    
+    
+
+}
+.projects .container .box{
+    position: relative;
+    width: 450px;   
+    height: 320px;
+
+   
+    
+}
+.projects .container .box .videoBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+    
+}
+.projects .container .box .videoBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;   
+    height: 100%;
+    object-fit: cover;
+
+    
+}  
+.projects .container .box .contentBx{
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: (0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+ 
+}
+
+.projects .container .box:hover .contentBx{
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    
+}
+.projects .container .box .contentBx .content{
+    position: relative;
+    padding: 20px 60px;
+    
+    
+}
+.projects .container .box:hover .contentBx .content{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.4s;
+
+}
+.projects .container .box .contentBx .content h2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.projects .container .box .contentBx .content p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/* contact */
+.Contact section {
+    margin-top: 35px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contact .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+  
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+}
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
